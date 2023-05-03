@@ -1,4 +1,5 @@
 activity_main.xml
+
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
 xmlns:android="http://schemas.android.com/apk/res/android"
@@ -20,6 +21,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
  app:layout_constraintRight_toRightOf="parent"
  app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 MainActivity.java
 package com.example.secondprog;
 import androidx.annotation.NonNull;
@@ -51,7 +54,9 @@ ContextMenu.ContextMenuInfo menuInfo) {
  return super.onContextItemSelected(item);
  }
 }
+
 Note: on the menu right click and create a menu.xml
+
 menu.xml
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
